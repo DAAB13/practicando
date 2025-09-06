@@ -10,4 +10,9 @@ def sum_2(a, b):
   return a + b
 resultado = sum_2(10, 5)
 resultado = sum_2(35, 13)
-print(resultado)
+print(resultado) 
+
+def print_name(name, surname):
+  print(f"{name} {surname}")
+
+print_name("Thiago", "Alvarado")
